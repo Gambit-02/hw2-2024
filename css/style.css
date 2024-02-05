@@ -1,10 +1,12 @@
 body{
-    font-family: Arial, Verdana, sans-serif;
+    font-family: "Arial", "Verdana", sans-serif;
     background-color: black;
     color: white;
-    margin: 20px 0 20px 0;
+    margin: 20px 20px 0 20px;
 }
-
+body * {
+    font-family: "Arial", "Verdana", sans-serif; 
+}
 h1{
     font-size: 42px;
     text-align: center;
@@ -64,7 +66,7 @@ main > div{
     color:#707070;
 }
 .green{
-    background: #00EB00;
+    background: #008500;
     text-align: left;
     margin-right: 50px;
     border-width: 2px 5px 0 0; 
@@ -79,5 +81,5 @@ footer{
 footer > p{
     font-size: 20px;
     text-align: right;
-    padding: 15px 0 15px 15px;
+    padding: 15px 15px 15px 0;
 }
