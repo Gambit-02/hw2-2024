@@ -1,10 +1,10 @@
-body {
+body{
     font-family: Arial, Verdana, sans-serif;
     background-color: black;
     color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0 20px 0;
 }
+
 h1{
     font-size: 42px;
     text-align: center;
@@ -64,7 +64,7 @@ main > div{
     color:#707070;
 }
 .green{
-    background: #00d800;
+    background: #00EB00;
     text-align: left;
     margin-right: 50px;
     border-width: 2px 5px 0 0; 
@@ -79,7 +79,5 @@ footer{
 footer > p{
     font-size: 20px;
     text-align: right;
-    padding-top: 15px;
-    padding-top: 15px;
-    padding-right: 15px;
+    padding: 15px 0 15px 15px;
 }
